@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F2F5;
+}
+
+/* navbar Layout*/
+.bg-navcustom{
+    background-color:white;
+}
+
+.nav-logo-custom{
+    width: 10vh;
+}
+.profilepicNavb{
+    height: 3vh;
+    width: 3vh;
+}
+
+/* login Layout */
+.logo-login{
+    width: 20vh;
+}
+
+.col-login{
+    min-height: 30vh;
+    width: 40vh;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+.btn-login-custom{
+    background-color: #42B72A;
+}
+
+.btn-login-custom:hover{
+    background-color: #36A420;
+}
+
+.d-hidden{
+    visibility:hidden;
+}
+.d-visible{
+    visibility:visible;
+}
+
+/* Component create-post */
+#content{
+    width: 40vh;
+    height: 6vh;
+    margin-top: 1vh;
+    resize: none;
+    background-color: #F0F2F5; ;
+}
+#content::placeholder{
+    position: relative;
+    top: 1vh;
+    vertical-align: center;
+}
+.formComponent{
+background-color: white;
+padding: 2vh 10vh;
+}
+
+
+/* Mediaqueries */
+@media (min-width: 768px) {
+    .row-login{
+        margin-top: 25vh;
+    }
+    .col-login{
+        position: relative;
+        bottom: 5vh;
+    }
+    .profilepicNavb{
+        position: relative;
+        bottom: 0.2vh;
+        left: 0.8vh;
+    }
+
+}
